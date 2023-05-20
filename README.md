@@ -10,7 +10,7 @@ Skills: JAVA / MAVEN / SPRING BOOT / HTML / CSS / BOOTSTRAP
 
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKings)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSKings)]
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=SSKings&show_icons=true&count_private=true)  
 
