@@ -9,7 +9,7 @@ Hard skills: JAVA / MAVEN / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
 ](https://github.com/SSKings)
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="sskings-java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javas/java.svg">
+  <img align="center" alt="sskings-java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java.svg">
   <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
