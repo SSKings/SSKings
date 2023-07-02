@@ -8,3 +8,7 @@ Hard skills: JAVA / MAVEN / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
 <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/docker.svg' alt='github' height='40'>
 ](https://github.com/SSKings)
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="40" height="40"/> 
+
