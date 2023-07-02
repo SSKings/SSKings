@@ -13,4 +13,4 @@ Hard skills: JAVA / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="40" height="40"/> 
 </div>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?user=anuraghazra&show_icons=true&theme=transparent)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
