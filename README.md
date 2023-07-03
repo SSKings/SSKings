@@ -1,7 +1,7 @@
 ### Olá Pessoas 👋, meu nome é Sérgio
 #### Pai, estudante e entusiasta da área de TI, autointitulado Web Developer :D
 
-Hard skills: JAVA / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
+##JAVA / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
 
 <div style="display: inline_block"><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
