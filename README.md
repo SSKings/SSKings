@@ -1,5 +1,5 @@
 ### Olá Pessoas 👋, meu nome é Sérgio
-#### Pai, estudante e entusiasta da área de TI, autointitulado Web Developer :D
+#### Pai, estudante e entusiasta da área de TI e Web Developer :D
 
 ## Estou aprendendo:
 ### JAVA / SPRING BOOT / HTML / CSS / BOOTSTRAP / DOCKER
