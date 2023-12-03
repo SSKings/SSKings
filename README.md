@@ -2,7 +2,7 @@
 #### Pai, Estudante e Programador 😃 
 
 ## Habilidades com:
-###  PYTHON / JAVA / SPRING BOOT / HTML / CSS / JAVASCRIPT / BOOTSTRAP / DOCKER
+###  PYTHON / JAVA / SPRING BOOT/ THYMELEAF / HTML / CSS / JAVASCRIPT / BOOTSTRAP / DOCKER
 
 <div style="display: inline_block"><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
