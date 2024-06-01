@@ -1,5 +1,5 @@
-### Oi 👋, Eu sou o Sérgio 
-#### Pai, Estudante e Trabalhador😃 
+
+### Pai, Estudante e Trabalhador 
 
 <div style="display: inline_block"><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
