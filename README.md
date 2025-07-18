@@ -1,4 +1,4 @@
-## #Softaware #Developer
+## #Software #Developer
 
 <div style="display: inline_block"><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"/>
