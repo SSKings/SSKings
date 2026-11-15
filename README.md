@@ -1,85 +1,56 @@
+# Olá, eu sou o Sérgio 👋
 
-<div style="display: inline_block"><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="60" height="60"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" width="60" height="60"/>
-  <!--<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="60" height="60"/>-->
-</div>
-<br>
-<div>
-<a href="https://github.com/sskings">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sskings&layout=compact&langs_count=7&theme=dracula"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sskings&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-</div>
+Desenvolvedor **Java / Spring Boot** com foco em back-end, evoluindo para full-stack com **React + TypeScript**.
+Estudo programação desde 2021 e uso projetos pessoais para praticar o que se espera em produção: testes
+automatizados, segurança, CI, observabilidade e deploy com Docker.
 
-Olá, me chamo Sérgio 👋
-Java Backend Developer
-Desenvolvedor em formação com estudos em programação e desenvolvimento web desde 2021.
+🎯 Buscando minha primeira oportunidade como **desenvolvedor back-end júnior**.
 
-Atualmente meu foco principal é o ecossistema Java, especialmente desenvolvimento backend com Spring Boot, APIs REST, bancos de dados e arquitetura de aplicações.
+---
 
-Tenho experiência prática de estudos com diferentes tecnologias e utilizo projetos pessoais para aprofundar conhecimentos em desenvolvimento de software, microsserviços, containers e infraestrutura.
+## ⭐ Projeto em destaque: [ShopEasy](https://github.com/SSKings/shopeasy)
 
-🚀 Foco atual
-Java
+E-commerce full-stack com **API REST em Spring Boot** e **SPA em React + TypeScript**: catálogo, carrinho,
+checkout com **Pix**, área do cliente e painel administrativo.
 
-Spring Boot
+- **785 testes** com cobertura exigida no build (back-end 98% de linhas, front-end 99%) e CI com verificação de CVEs
+- **6 rodadas de revisão de segurança**, cada correção com um teste que falha no código anterior: JWT com revogação,
+  MFA (TOTP) para admin, bloqueio contra força bruta, rate limit, CSP/HSTS e auditoria —
+  [relatório](https://github.com/SSKings/shopeasy/blob/main/docs/security-review.md)
+- **Pix** com BR Code gerado no servidor e webhook com HMAC; checkout atômico, sem venda acima do estoque
+- **Observabilidade com OpenTelemetry**: do clique no front até o SQL no Grafana (traces, logs e métricas) e alertas
+  no Telegram
+- **Pilha de produção com Docker**: PostgreSQL, API sem root, nginx com TLS e backup cifrado; capacidade medida com
+  k6 (~400 ações/s dentro do SLO)
+- Decisões registradas em [26 ADRs](https://github.com/SSKings/shopeasy/blob/main/docs/adr.md)
 
-APIs REST
+`Java 17` `Spring Boot 3.5` `Spring Security` `JPA` `Flyway` `PostgreSQL` `React 19` `TypeScript` `Tailwind`
+`Docker` `nginx` `OpenTelemetry` `Grafana` `k6`
 
-Spring Data JPA / Hibernate
+## 📂 Outros projetos
 
-SQL
+| Projeto | Sobre |
+|---|---|
+| [gestor-financeiro](https://github.com/SSKings/gestor-financeiro) | API REST de finanças pessoais: contas, cartões e lançamentos, com Spring Security + JWT, PostgreSQL e Docker |
+| [MICROSERVICES](https://github.com/SSKings/MICROSERVICES) | Microsserviços com Spring Cloud: Eureka (service discovery) e Spring Cloud Gateway |
+| [spring-ai-labs](https://github.com/SSKings/spring-ai-labs) | Spring AI + OpenAI: chat, geração de imagens, transcrição de áudio (Whisper) e síntese de voz |
+| [spring-estudos](https://github.com/SSKings/spring-estudos) | Estudos de Spring Boot: MVC com Thymeleaf e autenticação com Spring Security |
+| [K8s---KUBERNETES](https://github.com/SSKings/K8s---KUBERNETES) | Estudos de Kubernetes: manifests e comandos |
 
-PostgreSQL
+## 🛠️ Tecnologias
 
-Testes automatizados
+- **Back-end:** Java · Spring Boot · Spring Security · Spring Data JPA / Hibernate · APIs REST · JWT
+- **Front-end:** React · TypeScript · JavaScript · Tailwind CSS · HTML · CSS
+- **Bancos de dados:** PostgreSQL · MySQL · H2 · MongoDB · Flyway
+- **Testes e qualidade:** JUnit 5 · Mockito · Vitest · Testing Library · JaCoCo · k6
+- **Infra e DevOps:** Docker · nginx · GitHub Actions · Linux · Git · Kubernetes (estudos)
+- **Observabilidade:** OpenTelemetry · Grafana · Prometheus · Loki · Tempo
+- **Outras linguagens:** Python · C · Rust
 
-Docker
+## 📚 Estudando agora
 
-Microsserviços
+Arquitetura de software · Microsserviços · Kubernetes
 
-Kubernetes
+## 📫 Contato
 
-Arquitetura de software
-
-🛠️ Tecnologias
-Backend
-Java • Spring Boot 
-
-Frontend
-JavaScript • React • HTML • CSS
-
-DevOps / Infraestrutura
-Docker • Kubernetes • Git • GitHub
-
-Bancos de dados
-SQL • PostgreSQL • MySQL • MongoDB
-
-Outras linguagens
-C • Rust • Python 
-
-📌 Projetos
-Java + Spring Boot
-Projetos e POCs voltados ao desenvolvimento backend utilizando Java e Spring Boot.
-
-→ Projetos Java / Spring Boot
-
-Microsserviços
-Estudos e implementação de conceitos relacionados à arquitetura de microsserviços.
-
-→ Microsserviços
-
-Kubernetes
-Estudos sobre containers, orquestração e infraestrutura utilizando Kubernetes.
-
-→ Kubernetes
-
-📚 Atualmente estudando
-Java • Spring Boot • Arquitetura de Software • Microsserviços • Docker • Kubernetes • Testes
-
-📫 Contato
-LinkedIn: linkedin.com/in/sskings
+[LinkedIn](https://www.linkedin.com/in/sskings) · [Site](https://sskings.github.io)
