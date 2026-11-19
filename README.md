@@ -8,7 +8,9 @@ automatizados, segurança, CI, observabilidade e deploy com Docker.
 
 ---
 
-## ⭐ Projeto em destaque: [ShopEasy](https://github.com/SSKings/shopeasy)
+## ⭐ Projetos em destaque
+
+### [ShopEasy](https://github.com/SSKings/shopeasy)
 
 E-commerce full-stack com **API REST em Spring Boot** e **SPA em React + TypeScript**: catálogo, carrinho,
 checkout com **Pix**, área do cliente e painel administrativo.
@@ -27,11 +29,30 @@ checkout com **Pix**, área do cliente e painel administrativo.
 `Java 17` `Spring Boot 3.5` `Spring Security` `JPA` `Flyway` `PostgreSQL` `React 19` `TypeScript` `Tailwind`
 `Docker` `nginx` `OpenTelemetry` `Grafana` `k6`
 
+### [Bolso](https://github.com/SSKings/bolso-gestor-financeiro)
+
+Finanças pessoais **e compartilhadas**, feitas para o dia a dia no celular: divida as contas da casa com quem mora com
+você e saiba, a qualquer momento, quanto entrou, quanto saiu e quanto vai sobrar no fim do mês.
+
+- **Espaços compartilhados** com convite; **cartão de crédito** com fatura, parcelas e pagamento; **contas fixas**,
+  orçamento por categoria e **previsão do saldo** do mês
+- **Importação de extrato** (OFX/CSV) sem duplicar lançamentos e **bot no Telegram**: mande `32,50 almoço` e o gasto
+  entra já categorizado
+- **289 testes** escritos com TDD (back-end contra PostgreSQL real, com Testcontainers) e **teste de mutação** (PIT, 95%)
+- **CI que barra regressões**: contrato da API (OpenAPI gerando os tipos do front), pilha de produção subindo por cima
+  da versão anterior com dados, scan de imagens (Trivy) e CodeQL — a `main` só aceita PR com tudo verde
+- Segurança testada desde o começo: isolamento entre espaços também no banco, tokens revogáveis, bot que age com as
+  permissões da própria pessoa — [controles e testes](https://github.com/SSKings/bolso-gestor-financeiro/blob/main/docs/security.md)
+- Migrado para **Spring Boot 4.1** (Spring 7, Jackson 3) quando a linha 3.5 saiu do suporte;
+  [16 ADRs](https://github.com/SSKings/bolso-gestor-financeiro/blob/main/docs/adr.md)
+
+`Java 17` `Spring Boot 4.1` `Spring Security` `JPA` `Flyway` `PostgreSQL` `Testcontainers` `React 19` `TypeScript`
+`PWA` `Docker` `nginx` `GitHub Actions` `Telegram Bot API`
+
 ## 📂 Outros projetos
 
 | Projeto | Sobre |
 |---|---|
-| [gestor-financeiro](https://github.com/SSKings/gestor-financeiro) | API REST de finanças pessoais: contas, cartões e lançamentos, com Spring Security + JWT, PostgreSQL e Docker |
 | [MICROSERVICES](https://github.com/SSKings/MICROSERVICES) | Microsserviços com Spring Cloud: Eureka (service discovery) e Spring Cloud Gateway |
 | [spring-ai-labs](https://github.com/SSKings/spring-ai-labs) | Spring AI + OpenAI: chat, geração de imagens, transcrição de áudio (Whisper) e síntese de voz |
 | [spring-estudos](https://github.com/SSKings/spring-estudos) | Estudos de Spring Boot: MVC com Thymeleaf e autenticação com Spring Security |
@@ -39,11 +60,11 @@ checkout com **Pix**, área do cliente e painel administrativo.
 
 ## 🛠️ Tecnologias
 
-- **Back-end:** Java · Spring Boot · Spring Security · Spring Data JPA / Hibernate · APIs REST · JWT
+- **Back-end:** Java · Spring Boot · Spring Security · Spring Data JPA / Hibernate · APIs REST · OpenAPI · JWT
 - **Front-end:** React · TypeScript · JavaScript · Tailwind CSS · HTML · CSS
 - **Bancos de dados:** PostgreSQL · MySQL · H2 · MongoDB · Flyway
-- **Testes e qualidade:** JUnit 5 · Mockito · Vitest · Testing Library · JaCoCo · k6
-- **Infra e DevOps:** Docker · nginx · GitHub Actions · Linux · Git · Kubernetes (estudos)
+- **Testes e qualidade:** JUnit · Mockito · Testcontainers · Vitest · Testing Library · JaCoCo · PIT (mutação) · k6
+- **Infra e DevOps:** Docker · nginx · GitHub Actions · Trivy · CodeQL · Dependabot · Linux · Git · Kubernetes (estudos)
 - **Observabilidade:** OpenTelemetry · Grafana · Prometheus · Loki · Tempo
 - **Outras linguagens:** Python · C · Rust
 
