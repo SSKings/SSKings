@@ -15,7 +15,7 @@ automatizados, segurança, CI, observabilidade e deploy com Docker.
 E-commerce full-stack com **API REST em Spring Boot** e **SPA em React + TypeScript**: catálogo, carrinho,
 checkout com **Pix**, área do cliente e painel administrativo.
 
-- **785 testes** com cobertura exigida no build (back-end 98% de linhas, front-end 99%) e CI com verificação de CVEs
+- **806 testes** com cobertura exigida no build (back-end 98% de linhas, front-end 99%) e CI com verificação de CVEs
 - **6 rodadas de revisão de segurança**, cada correção com um teste que falha no código anterior: JWT com revogação,
   MFA (TOTP) para admin, bloqueio contra força bruta, rate limit, CSP/HSTS e auditoria —
   [relatório](https://github.com/SSKings/shopeasy/blob/main/docs/security-review.md)
@@ -24,9 +24,11 @@ checkout com **Pix**, área do cliente e painel administrativo.
   no Telegram
 - **Pilha de produção com Docker**: PostgreSQL, API sem root, nginx com TLS e backup cifrado; capacidade medida com
   k6 (~400 ações/s dentro do SLO)
-- Decisões registradas em [26 ADRs](https://github.com/SSKings/shopeasy/blob/main/docs/adr.md)
+- **CI que barra regressões**: sobe a pilha de produção por cima da versão anterior com dados, scan de imagens
+  (Trivy), CodeQL e teste de mutação — a `main` só aceita PR com tudo verde
+- Migrado para **Spring Boot 4.1**; decisões registradas em [28 ADRs](https://github.com/SSKings/shopeasy/blob/main/docs/adr.md)
 
-`Java 17` `Spring Boot 3.5` `Spring Security` `JPA` `Flyway` `PostgreSQL` `React 19` `TypeScript` `Tailwind`
+`Java 17` `Spring Boot 4.1` `Spring Security` `JPA` `Flyway` `PostgreSQL` `React 19` `TypeScript` `Tailwind`
 `Docker` `nginx` `OpenTelemetry` `Grafana` `k6`
 
 ### [Bolso](https://github.com/SSKings/bolso-gestor-financeiro)
