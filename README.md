@@ -1,8 +1,12 @@
-# Olá, eu sou o Sérgio 👋
+# Sérgio
 
-Desenvolvedor **Java / Spring Boot** com foco em back-end, evoluindo para full-stack com **React + TypeScript**.
-Estudo programação desde 2021 e uso projetos pessoais para praticar o que se espera em produção: testes
-automatizados, segurança, CI, observabilidade e deploy com Docker.
+**Desenvolvedor back-end Java / Spring Boot** · React + TypeScript no front-end
+
+[LinkedIn](https://www.linkedin.com/in/sskings) · [Site](https://sskings.github.io)
+
+Construo APIs REST com testes automatizados, segurança revisada, CI que barra regressões e deploy com Docker. Estudo
+programação desde 2021 e uso projetos pessoais para praticar o que se espera em produção — os dois em destaque abaixo
+têm, juntos, mais de mil testes, revisões de segurança documentadas e pilha de produção testada a cada mudança.
 
 🎯 Buscando minha primeira oportunidade como **desenvolvedor back-end júnior**.
 
