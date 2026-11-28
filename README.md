@@ -5,8 +5,8 @@
 [LinkedIn](https://www.linkedin.com/in/sskings) · [Site](https://sskings.github.io)
 
 Construo APIs REST com testes automatizados, segurança revisada, CI que barra regressões e deploy com Docker. Estudo
-programação desde 2021 e uso projetos pessoais para praticar o que se espera em produção — os dois em destaque abaixo
-têm, juntos, mais de mil testes, revisões de segurança documentadas e pilha de produção testada a cada mudança.
+programação desde 2021 e uso projetos pessoais para praticar o que se espera em produção — os três em destaque abaixo
+têm, juntos, cerca de 1.500 testes, revisões de segurança documentadas e pilha de produção testada a cada mudança.
 
 🎯 Buscando minha primeira oportunidade como **desenvolvedor back-end júnior**.
 
@@ -55,6 +55,29 @@ você e saiba, a qualquer momento, quanto entrou, quanto saiu e quanto vai sobra
 `Java 17` `Spring Boot 4.1` `Spring Security` `JPA` `Flyway` `PostgreSQL` `Testcontainers` `React 19` `TypeScript`
 `PWA` `Docker` `nginx` `GitHub Actions` `Telegram Bot API`
 
+### [Agendaí](https://github.com/SSKings/agendai) · *em desenvolvimento*
+
+Agendamento online para pequenos negócios (barbearias, salões, clínicas): o estabelecimento publica um link e o
+cliente escolhe serviço, profissional e horário em segundos, **sem criar conta**. Projeto focado em **concorrência,
+mensageria, cache e multi-tenant**.
+
+- **Sem horário duplicado, mesmo com acessos simultâneos**: o conflito é resolvido no banco (restrição de exclusão do
+  PostgreSQL), com reserva temporária no **Redis** enquanto o cliente confirma o código recebido por e-mail
+- **Multi-tenant com isolamento em três camadas**, incluindo **Row-Level Security** no PostgreSQL — um estabelecimento
+  nunca enxerga os dados de outro, nem por bug na aplicação
+- **Eventos com outbox transacional + RabbitMQ**: filas quorum, novas tentativas com espera, fila de mensagens mortas e
+  worker idempotente rodando em processo separado da API
+- **100% de cobertura de linhas e ramos exigida pelo CI** (JaCoCo) e **teste de mutação** (PIT ≥ 95%), com testes de
+  concorrência — mais de 400 testes escritos com TDD
+- Segurança: access token só em memória e refresh em cookie HttpOnly com rotação, limite de requisições por IP no
+  Redis, link pessoal do cliente com token no fragmento da URL e **LGPD** (exportar/apagar dados, retenção)
+- Cache dos horários livres com invalidação por versão; decisões registradas em
+  [12 ADRs](https://github.com/SSKings/agendai/blob/main/docs/adr.md). Próximas fases: lembretes, WhatsApp, lista de
+  espera e deploy na AWS com Terraform
+
+`Java 17` `Spring Boot 4.1` `Spring Security` `PostgreSQL (RLS)` `Redis` `RabbitMQ` `Flyway` `Testcontainers`
+`ArchUnit` `React 19` `TypeScript` `Docker` `nginx` `GitHub Actions`
+
 ## 📂 Outros projetos
 
 | Projeto | Sobre |
@@ -68,8 +91,9 @@ você e saiba, a qualquer momento, quanto entrou, quanto saiu e quanto vai sobra
 
 - **Back-end:** Java · Spring Boot · Spring Security · Spring Data JPA / Hibernate · APIs REST · OpenAPI · JWT
 - **Front-end:** React · TypeScript · JavaScript · Tailwind CSS · HTML · CSS
-- **Bancos de dados:** PostgreSQL · MySQL · H2 · MongoDB · Flyway
-- **Testes e qualidade:** JUnit · Mockito · Testcontainers · Vitest · Testing Library · JaCoCo · PIT (mutação) · k6
+- **Bancos de dados e cache:** PostgreSQL (com Row-Level Security) · MySQL · H2 · MongoDB · Redis · Flyway
+- **Mensageria:** RabbitMQ · padrão outbox
+- **Testes e qualidade:** JUnit · Mockito · Testcontainers · ArchUnit · Vitest · Testing Library · JaCoCo · PIT (mutação) · k6
 - **Infra e DevOps:** Docker · nginx · GitHub Actions · Trivy · CodeQL · Dependabot · Linux · Git · Kubernetes (estudos)
 - **Observabilidade:** OpenTelemetry · Grafana · Prometheus · Loki · Tempo
 - **Outras linguagens:** Python · C · Rust
